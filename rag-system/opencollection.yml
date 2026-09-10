@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+
+info:
+  name: rag-system
+bundled: false
+settings:
+  timeout: 600000
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

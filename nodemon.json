@@ -1,0 +1,5 @@
+{
+  "watch": ["src", "security-kb"],
+  "ignore": ["tmp", "data", "web", "node_modules"],
+  "ext": "js,md"
+}

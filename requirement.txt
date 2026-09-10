@@ -1,0 +1,8 @@
+RAG system for identifying security loops in a code.
+
+1. Accept github repo public url.
+2. Vector DB. complete code. 
+3. list of security parameter. (rag)
+4. return of list recommendation (priority)
+
+

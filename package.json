@@ -1,0 +1,23 @@
+{
+  "name": "rag-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express RAG security scanner",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --delay 1 src/index.js",
+    "web": "npm run dev --prefix web"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.22.0",
+    "apache-arrow": "^21.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "simple-git": "^3.27.0",
+    "onnxruntime-web": "^1.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

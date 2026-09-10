@@ -1,0 +1,15 @@
+info:
+  name: index
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://localhost:3000/kb/reindex
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 600000
+  followRedirects: true
+  maxRedirects: 5
