@@ -1,15 +1,15 @@
 info:
-  name: index
+  name: find sum
   type: http
-  seq: 3
+  seq: 5
 
 http:
-  method: POST
-  url: http://localhost:3000/kb/reindex
+  method: GET
+  url: http://localhost:3000/employees/find-sum
   auth: inherit
 
 settings:
   encodeUrl: true
-  timeout: 600000
+  timeout: 0
   followRedirects: true
   maxRedirects: 5
